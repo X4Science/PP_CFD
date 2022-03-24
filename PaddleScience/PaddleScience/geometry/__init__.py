@@ -22,7 +22,11 @@ from .cylinder_in_cube import CylinderInRectangular
 
 
 
-# 修改几何尺寸2，使用rectangular_use_cirRE_100,圆柱直径放大值
-from .rectangular_use_cirRE_100 import Rectangular
+# 修改几何尺寸2，使用rectangular_use_cirRE_100,使用的是uniform离散节点
+# from .rectangular_use_cirRE_100 import Rectangular
+
+
+# 使用sampling随机生成节点，且圆周与四周节点固定，使用
+from .rectangular_use_cirRE_100_new import Rectangular
 
 
